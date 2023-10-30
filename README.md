@@ -1,21 +1,34 @@
 
-This Workout Buddy application provides its user(s) with a way for them to log and view their own workouts (including the sets they did along with the weight they used in kg) the backend enables the user(s) to create an account with their email so that they can have their own user unique workout entries. When the user isn't logged in the user workouts won't be accessible and the only pages available will be the login and signup pages.
+// Inspiration
 
+The inspirtation behind this project was being able to create an app that provides guidence, organization, and motivation to any user starting or well on their fitness journey. Tools as such we believe will help the community thrive and encourage them to reach their goals.
 
+// Overview
 
+Our app features users the ability to create workouts(Type, the load amount, and number of reps)upon login and a valid registration. Users will also be able to delete any workouts they no longer wish to keep. Users will only be able to see workouts created by them. Once satisfied, users can logout at any time while still having all their created workouts saved. Just log back in, and the user can resume right where they left off.
 
+// Technologies and Technical Information
 
+Front End(into client directory) installation packages(npm i "package")
 
+React-router-dom
 
-dependancies used:
-    Frontend:
-        react-router-dom
-        date-fns
-        react
+Back End(into server directory) installation packages(npm i "package")
 
-    Backend:
-        validator
-        jsonwebtoken
-        mongoose
-        bcrypt
-        express
+Bcrypt Mongoose Express JsonWebToken Dotenv
+
+// Issues
+
+No known issues to date
+
+//API Endpoints
+
+GET /workouts --> Gets all the workout documents POST /workouts --> Creates a new workout document GET /workouts/:id --> Gets a single workout document DELETE /workouts/:id --> Deletes a single workout PATCH /workouts/:id --> Updates a single workout
+
+// Unfinished App functionality/goals
+
+Hopefully in the future developement of this app users will be able to interact with other users. Whether it's seeing other workouts posted from other users or being able to leave comments on workouts and spreading ideas. "My Fitness Tracker" has a goal to spread positivty in the health and fitness community alike for users through the means of a social-online interaction.
+
+// Developers for this Project
+
+Heriberto Delgado Frank Ortiz Jaylin Manuel
